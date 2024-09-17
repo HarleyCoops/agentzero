@@ -1,0 +1,24 @@
+"Do you agree with this calculation
+
+
+A portfolio manager wants to test if the average return to test if the average return of a portfolio is different from 13%. A sample of 20 monthly returns has a mean of 12% and a standard deviation of 2%.
+
+a) State the null and alternative hypotheses.
+b) Calculate the test statistic.
+c) Determine the critical value and make a decision at a 5% significance level.
+d) Calculate the p-value and interpret the result.
+
+**Answer:**
+a) \( H_0: \mu = 13\% \)
+   \( H_A: \mu \neq 13\% \)
+
+b) Test statistic:
+\[ t = \frac{\bar{x} - \mu}{s / \sqrt{n}} = \frac{12\% - 13\%}{2\% / \sqrt{20}} = \frac{-1\%}{0.447\%} \approx -2.24 \]
+
+c) Critical value for a two-tailed test at 5% significance level with 19 degrees of freedom:
+\[ t_{0.025, 19} \approx 2.093 \]
+
+Since \( -2.24 < -2.093 \), we reject the null hypothesis.
+
+d) p-value:
+Using a t-table or calculator, the p-value for \( t = -2.24 \) with 19 degrees of freedom is approximately 0.04. Since \( p < 0.05 \), we reject the null hypothesis. There is significant evidence to suggest that the average return is different from 13%."
